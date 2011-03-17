@@ -1741,7 +1741,7 @@ msgstr ""
 #. [unit_type]: id=Graft_Steppe_Rigid, race=orc
 #: Grafted_Era/units/steppe/Steppe_Rigid.cfg:19
 msgid ""
-"Aptly named, the Rigid are a near unb_NOreakable foe. They often form fall-back "
+"Aptly named, the Rigid are a near unbreakable foe. They often form fall-back "
 "positions behind the battle lines. Many a time the Rigid have been "
 "sacrificed, delaying the enemy while the main force recovers and regroups "
 "behind their unyielding wall of flesh, bone and iron. Their role is hardly a "
