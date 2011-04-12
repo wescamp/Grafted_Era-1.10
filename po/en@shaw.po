@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-02-21 15:36+0100\n"
+"POT-Creation-Date: 2011-04-12 14:27+0200\n"
 "PO-Revision-Date: 2011-02-21 15:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: en@shaw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en@shaw\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [dummy]: id=Graft_weapon_special_demonic_pull
@@ -297,15 +297,19 @@ msgstr ""
 "The opposite of arcane resistance is used for damage calculation. Thus, this "
 "attack is more efficient against most humans."
 
-#. [band]: id=Graft_band
-#: Grafted_Era/macros/nightmares/band.cfg:5
-msgid "band-"
-msgstr "band-"
+#. [leadership]: id=Graft_band
+#: Grafted_Era/macros/nightmares/band.cfg:7
+#, fuzzy
+msgid "band insect"
+msgstr "insect"
 
-#. [band]: id=Graft_band
-#: Grafted_Era/macros/nightmares/band.cfg:6
-msgid "Band-"
-msgstr "Band-"
+#. [leadership]: id=Graft_band
+#: Grafted_Era/macros/nightmares/band.cfg:9
+msgid ""
+"Band Insect:\n"
+"When attacking, the unit gets an additionnal strike for each insect next to "
+"it"
+msgstr ""
 
 #. [leadership]: id=Graft_horror
 #: Grafted_Era/macros/nightmares/horror.cfg:8
@@ -338,16 +342,17 @@ msgstr ""
 "are not affected and units that are 1 level above do 10% less damage."
 
 #. [dummy]: id=Graft_weapon_special_jinx
-#: Grafted_Era/macros/nightmares/jinx.cfg:9
-#: Grafted_Era/macros/nightmares/jinx.cfg:10
+#: Grafted_Era/macros/nightmares/jinx.cfg:12
+#: Grafted_Era/macros/nightmares/jinx.cfg:13
 msgid "jinx"
 msgstr "jinx"
 
 #. [dummy]: id=Graft_weapon_special_jinx
-#: Grafted_Era/macros/nightmares/jinx.cfg:13
 #: Grafted_Era/macros/nightmares/jinx.cfg:16
+#: Grafted_Era/macros/nightmares/jinx.cfg:19
+#, fuzzy
 msgid ""
-"Jinx :\n"
+"Jinx:\n"
 "Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
 "terrain until it is cured by a healer or in a village.\n"
 "Does not affect undeads, and the defense value can't go lower than 10%."
@@ -357,8 +362,8 @@ msgstr ""
 "terrain until it is cured by a healer or in a village.\n"
 "Does not affect undeads, and the defense value can't go lower than 10%."
 
-#: Grafted_Era/macros/nightmares/jinx.cfg:54
-#: Grafted_Era/macros/nightmares/jinx.cfg:102
+#: Grafted_Era/macros/nightmares/jinx.cfg:57
+#: Grafted_Era/macros/nightmares/jinx.cfg:92
 msgid "cursed"
 msgstr "cursed"
 
@@ -379,6 +384,7 @@ msgstr "terrain link"
 
 #. [terrain_link]: id=Graft_terrain_link
 #: Grafted_Era/macros/nightmares/terrain_link.cfg:22
+#, fuzzy
 msgid ""
 "Terrain link :\n"
 "That unit mutates depending on the terrain you're moving on.\n"
@@ -399,7 +405,7 @@ msgid ""
 "terrain, medium to low resistance.\n"
 "\n"
 "Frost form - from snow based terrain. Low mobility, good resistance except "
-"to fire and impact, can slow ennemies."
+"to fire and impact, can slow enemies."
 msgstr ""
 "Terrain link :\n"
 "That unit mutates depending on the terrain you're moving on.\n"
@@ -645,6 +651,66 @@ msgstr "strong"
 #: Grafted_Era/traits/trait_strongman.cfg:7
 msgid "female^strong"
 msgstr "female^strong"
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:50
+msgid "slippery"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:54
+msgid "+20% pierce resistance, +1 hitpoint"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:93
+msgid "flexible"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:97
+msgid "+20% impact resistance, +2 hitpoints +1 hitpoint per level"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:136
+msgid "thick"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:140
+msgid "+20% blade resistance"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:181
+msgid "hard"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:185
+msgid "+20% blade and pierce resistance, -20% impact resistance, -5% hitpoints"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:251
+msgid "+1 melee damage, +1 hitpoint"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:299
+msgid "+4 hitpoints +1 hitpoint per level"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:342
+msgid "-20% experience needed for promotion"
+msgstr ""
+
+#. [set_variable]
+#: Grafted_Era/traits/trait_unhatched.cfg:391
+msgid "+1 movement, -5% hitpoints"
+msgstr ""
 
 #. [unit_type]: id=Graft_Cloud_of_Gloom, race=nightmare
 #. [unit_type]: id=Graft_Eternal_Night, race=nightmare
@@ -1405,12 +1471,20 @@ msgstr ""
 msgid "kick"
 msgstr "kick"
 
-#. [attack]: type=arcane_focus
+#. [attack]
 #: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:41
 #: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:43
 #: Grafted_Era/units/nightmares/ab_sw_01_scornful_watcher.cfg:49
 msgid "stare"
 msgstr "stare"
+
+#. [attack]
+#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:43
+#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:45
+#: Grafted_Era/units/nightmares/ab_sw_01_scornful_watcher.cfg:51
+#, fuzzy
+msgid "arcane_focus"
+msgstr "arcane focus"
 
 #. [unit_type]: id=Graft_Spiteful_Watcher, race=aberration
 #: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:6
@@ -1769,7 +1843,7 @@ msgid "Icewind Drover"
 msgstr "Icewind Drover"
 
 #. [unit_type]: id=Graft_Steppe_Drover, race=orc
-#: Grafted_Era/units/steppe/Icewind_Drover.cfg:20
+#: Grafted_Era/units/steppe/Icewind_Drover.cfg:21
 msgid ""
 "A Herder of sufficient ability can become what the Steppe_Orcs call a "
 "Drover, the elite of the IceWind order. With age and experience in the "
@@ -1796,9 +1870,9 @@ msgstr ""
 "ice."
 
 #. [attack]: type=cold
-#: Grafted_Era/units/steppe/Icewind_Master.cfg:43
-#: Grafted_Era/units/steppe/Icewind_Herder.cfg:47
-#: Grafted_Era/units/steppe/Icewind_Drover.cfg:42
+#: Grafted_Era/units/steppe/Icewind_Master.cfg:44
+#: Grafted_Era/units/steppe/Icewind_Herder.cfg:48
+#: Grafted_Era/units/steppe/Icewind_Drover.cfg:43
 msgid "frostbite"
 msgstr "frostbite"
 
@@ -1808,7 +1882,7 @@ msgid "Icewind Herder"
 msgstr "Icewind Herder"
 
 #. [unit_type]: id=Graft_Steppe_Herder, race=orc
-#: Grafted_Era/units/steppe/Icewind_Herder.cfg:21
+#: Grafted_Era/units/steppe/Icewind_Herder.cfg:22
 msgid ""
 "There is an old tale about the creation of the the IceWind order: A gang of "
 "children were fishing when a very young female, hooking something bigger "
@@ -1850,7 +1924,7 @@ msgid "Icewind Master"
 msgstr "Icewind Master"
 
 #. [unit_type]: id=Graft_Steppe_Master, race=orc
-#: Grafted_Era/units/steppe/Icewind_Master.cfg:20
+#: Grafted_Era/units/steppe/Icewind_Master.cfg:21
 msgid ""
 "Masters are a rare thing indeed, especially in a race with little aptitude "
 "for magic. There is almost never more then one in each generation and, as "
@@ -2315,3 +2389,9 @@ msgstr ""
 "They live in waters beneath the ice sheet where most living things would "
 "find only death. They occasionaly trade with the steppe orcs, and even help "
 "them in battle, if sufficiently compensated. They aren't too swift."
+
+#~ msgid "band-"
+#~ msgstr "band-"
+
+#~ msgid "Band-"
+#~ msgstr "Band-"
