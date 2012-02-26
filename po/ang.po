@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-04-15 12:55+0200\n"
+"POT-Creation-Date: 2012-02-26 17:20+0100\n"
 "PO-Revision-Date: 2011-02-21 15:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -10,6 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 
 #. [dummy]: id=Graft_weapon_special_demonic_pull
@@ -19,8 +20,8 @@ msgid "demonic pull"
 msgstr ""
 
 #. [dummy]: id=Graft_weapon_special_demonic_pull
-#: Grafted_Era/abilities/abilities_darklands.cfg:10
-#: Grafted_Era/abilities/abilities_darklands.cfg:12
+#: Grafted_Era/abilities/abilities_darklands.cfg:9
+#: Grafted_Era/abilities/abilities_darklands.cfg:11
 msgid ""
 "Demonic pull :\n"
 "Calling upon otherwordly forces, the unit causes both the attacker and the "
@@ -34,7 +35,7 @@ msgid "demonic"
 msgstr ""
 
 #. [chance_to_hit]: id=Graft_demonic
-#: Grafted_Era/abilities/abilities_darklands.cfg:23
+#: Grafted_Era/abilities/abilities_darklands.cfg:21
 msgid ""
 "Demonic:\n"
 "This attack is tied with the underworld forces, receiving 50% chance to hit "
@@ -52,12 +53,12 @@ msgid "fearsome"
 msgstr ""
 
 #. [damage]: id=fearsome
-#: Grafted_Era/abilities/abilities_darklands.cfg:40
-#: Grafted_Era/abilities/abilities_darklands.cfg:43
-#: Grafted_Era/abilities/abilities_darklands.cfg:69
-#: Grafted_Era/abilities/abilities_darklands.cfg:72
-#: Grafted_Era/abilities/abilities_darklands.cfg:106
-#: Grafted_Era/abilities/abilities_darklands.cfg:109
+#: Grafted_Era/abilities/abilities_darklands.cfg:38
+#: Grafted_Era/abilities/abilities_darklands.cfg:41
+#: Grafted_Era/abilities/abilities_darklands.cfg:67
+#: Grafted_Era/abilities/abilities_darklands.cfg:70
+#: Grafted_Era/abilities/abilities_darklands.cfg:104
+#: Grafted_Era/abilities/abilities_darklands.cfg:107
 msgid ""
 "\n"
 "Fearsome:\n"
@@ -73,8 +74,8 @@ msgid "dauntless charge"
 msgstr ""
 
 #. [damage]: id=Cond_dread
-#: Grafted_Era/abilities/abilities_steppe.cfg:9
-#: Grafted_Era/abilities/abilities_steppe.cfg:11
+#: Grafted_Era/abilities/abilities_steppe.cfg:8
+#: Grafted_Era/abilities/abilities_steppe.cfg:10
 msgid ""
 "Dauntless charge:\n"
 "When a unit uses this attack offensively, it takes one third less damage in "
@@ -87,7 +88,7 @@ msgid "defend only"
 msgstr ""
 
 #. [damage]: id=Cond_defend_only
-#: Grafted_Era/abilities/abilities_steppe.cfg:23
+#: Grafted_Era/abilities/abilities_steppe.cfg:22
 msgid ""
 "Defend only:\n"
 "This weapon is only usable for defense."
@@ -104,31 +105,31 @@ msgid "distract"
 msgstr ""
 
 #. [skirmisher]: id=half_distract
-#: Grafted_Era/abilities/distract.cfg:8
+#: Grafted_Era/abilities/distract.cfg:7
 msgid ""
 "Distract:\n"
 "This unit negates enemy Zones of Control around itself for allied units (but "
 "not for itself)."
 msgstr ""
 
-#. [multiplayer_side]: id=Graft_random_faction, type=_rand_all
 #. [multiplayer_side]: id=Graft_random_faction_g, type=_rand_all_g
-#: Grafted_Era/factions/_fake/_rand_all.cfg:4
+#. [multiplayer_side]: id=Graft_random_faction, type=_rand_all
 #: Grafted_Era/factions/_fake/_rand_all_g.cfg:4
+#: Grafted_Era/factions/_fake/_rand_all.cfg:4
 msgid "Random"
 msgstr ""
 
-#. [multiplayer_side]: id=Graft_random_default_faction, type=_rand_def
 #. [multiplayer_side]: id=Graft_random_default_faction_g, type=_rand_def_g
-#: Grafted_Era/factions/_fake/_rand_def.cfg:4
+#. [multiplayer_side]: id=Graft_random_default_faction, type=_rand_def
 #: Grafted_Era/factions/_fake/_rand_def_g.cfg:4
+#: Grafted_Era/factions/_fake/_rand_def.cfg:4
 msgid "Random Default"
 msgstr ""
 
-#. [multiplayer_side]: id=Graft_random_extra_faction_g, type=_rand_ext_g
 #. [multiplayer_side]: id=Graft_random_extra_faction, type=_rand_ext
-#: Grafted_Era/factions/_fake/_rand_ext_g.cfg:4
+#. [multiplayer_side]: id=Graft_random_extra_faction_g, type=_rand_ext_g
 #: Grafted_Era/factions/_fake/_rand_ext.cfg:4
+#: Grafted_Era/factions/_fake/_rand_ext_g.cfg:4
 msgid "Random not Default"
 msgstr ""
 
@@ -153,7 +154,7 @@ msgid "Steppe Orcs"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Grafted_Era/macros/menu_item.cfg:29
+#: Grafted_Era/macros/menu_item.cfg:15
 msgid ""
 "-------------------\n"
 "About Grafted Era\n"
@@ -237,8 +238,8 @@ msgid "arcane focus"
 msgstr ""
 
 #. [dummy]: id=Graft_weapon_arcane_focus
-#: Grafted_Era/macros/nightmares/arcane_focus.cfg:11
-#: Grafted_Era/macros/nightmares/arcane_focus.cfg:13
+#: Grafted_Era/macros/nightmares/arcane_focus.cfg:10
+#: Grafted_Era/macros/nightmares/arcane_focus.cfg:12
 msgid ""
 "Arcane focus:\n"
 "The opposite of arcane resistance is used for damage calculation. Thus, this "
@@ -251,7 +252,7 @@ msgid "band insect"
 msgstr ""
 
 #. [leadership]: id=Graft_band
-#: Grafted_Era/macros/nightmares/band.cfg:9
+#: Grafted_Era/macros/nightmares/band.cfg:8
 msgid ""
 "Band Insect:\n"
 "When attacking, the unit gets an additionnal strike for each insect next to "
@@ -266,9 +267,9 @@ msgid "horror"
 msgstr ""
 
 #. [leadership]: id=Graft_horror
-#: Grafted_Era/macros/nightmares/horror.cfg:12
-#: Grafted_Era/macros/nightmares/horror.cfg:83
-#: Grafted_Era/macros/nightmares/horror.cfg:175
+#: Grafted_Era/macros/nightmares/horror.cfg:9
+#: Grafted_Era/macros/nightmares/horror.cfg:80
+#: Grafted_Era/macros/nightmares/horror.cfg:172
 msgid ""
 "Horror:\n"
 "This unit can frighten living enemy units that are next to it, making them "
@@ -287,8 +288,8 @@ msgid "jinx"
 msgstr ""
 
 #. [dummy]: id=Graft_weapon_special_jinx
-#: Grafted_Era/macros/nightmares/jinx.cfg:16
-#: Grafted_Era/macros/nightmares/jinx.cfg:19
+#: Grafted_Era/macros/nightmares/jinx.cfg:14
+#: Grafted_Era/macros/nightmares/jinx.cfg:17
 msgid ""
 "Jinx:\n"
 "Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
@@ -317,7 +318,7 @@ msgid "terrain link"
 msgstr ""
 
 #. [terrain_link]: id=Graft_terrain_link
-#: Grafted_Era/macros/nightmares/terrain_link.cfg:22
+#: Grafted_Era/macros/nightmares/terrain_link.cfg:9
 msgid ""
 "Terrain link :\n"
 "That unit mutates depending on the terrain you're moving on.\n"
@@ -347,7 +348,7 @@ msgid "upkeep band"
 msgstr ""
 
 #. [upkeep]: id=Graft_upkeep_band
-#: Grafted_Era/macros/nightmares/upkeep_band.cfg:8
+#: Grafted_Era/macros/nightmares/upkeep_band.cfg:7
 msgid ""
 "Upkeep Band :\n"
 "You pay an additional 1 gold upkeep for each band of creature having the "
@@ -606,73 +607,73 @@ msgstr ""
 msgid "+1 movement, -5% hitpoints"
 msgstr ""
 
-#. [unit_type]: id=Graft_Cloud_of_Gloom, race=nightmare
-#. [unit_type]: id=Graft_Eternal_Night, race=nightmare
-#. [unit_type]: id=Graft_Howling_Darkness, race=nightmare
-#. [unit_type]: id=Graft_rand_nondef_spawn, race=monster
-#. [unit_type]: id=_rand_northerners, race=monster
-#. [unit_type]: id=_rand_rebels, race=monster
+#. [unit_type]: id=_rand_def_g, race=monster
+#. [unit_type]: id=_rand_loyalists, race=monster
+#. [unit_type]: id=_rand_steppe, race=monster
 #. [unit_type]: id=_rand_drakes, race=monster
 #. [unit_type]: id=_rand_knalgan, race=monster
-#. [unit_type]: id=_rand_steppe, race=monster
-#. [unit_type]: id=_rand_ext_g, race=monster
-#. [unit_type]: id=_rand_all, race=monster
+#. [unit_type]: id=_rand_rebels, race=monster
+#. [unit_type]: id=_rand_all_g, race=monster
 #. [unit_type]: id=_rand_def, race=monster
 #. [unit_type]: id=_rand_ext, race=monster
-#. [unit_type]: id=_rand_nightmares, race=monster
-#. [unit_type]: id=_rand_undead, race=monster
-#. [unit_type]: id=Graft_rand_def_spawn, race=monster
-#. [unit_type]: id=_rand_def_g, race=monster
 #. [unit_type]: id=_rand_darklands, race=monster
-#. [unit_type]: id=_rand_halflings, race=monster
-#. [unit_type]: id=_rand_loyalists, race=monster
-#. [unit_type]: id=_rand_all_g, race=monster
+#. [unit_type]: id=_rand_undead, race=monster
+#. [unit_type]: id=Graft_rand_nondef_spawn, race=monster
 #. [unit_type]: id=Graft_rand_spawn, race=monster
-#: Grafted_Era/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:20
-#: Grafted_Era/units/nightmares/ni_hd_03_eternal_night.cfg:22
-#: Grafted_Era/units/nightmares/ni_hd_01_howling_darkness.cfg:20
-#: Grafted_Era/units/_fake/_rand_spawn_ext.cfg:20
-#: Grafted_Era/units/_fake/_rand_northerners.cfg:20
-#: Grafted_Era/units/_fake/_rand_rebels.cfg:20
+#. [unit_type]: id=_rand_nightmares, race=monster
+#. [unit_type]: id=_rand_northerners, race=monster
+#. [unit_type]: id=_rand_halflings, race=monster
+#. [unit_type]: id=_rand_all, race=monster
+#. [unit_type]: id=_rand_ext_g, race=monster
+#. [unit_type]: id=Graft_rand_def_spawn, race=monster
+#. [unit_type]: id=Graft_Cloud_of_Gloom, race=nightmare
+#. [unit_type]: id=Graft_Howling_Darkness, race=nightmare
+#. [unit_type]: id=Graft_Eternal_Night, race=nightmare
+#: Grafted_Era/units/_fake/_rand_def_g.cfg:20
+#: Grafted_Era/units/_fake/_rand_loyalists.cfg:20
+#: Grafted_Era/units/_fake/_rand_steppe.cfg:20
 #: Grafted_Era/units/_fake/_rand_drakes.cfg:20
 #: Grafted_Era/units/_fake/_rand_knalgan.cfg:20
-#: Grafted_Era/units/_fake/_rand_steppe.cfg:20
-#: Grafted_Era/units/_fake/_rand_ext_g.cfg:20
-#: Grafted_Era/units/_fake/_rand_all.cfg:20
+#: Grafted_Era/units/_fake/_rand_rebels.cfg:20
+#: Grafted_Era/units/_fake/_rand_all_g.cfg:20
 #: Grafted_Era/units/_fake/_rand_def.cfg:20
 #: Grafted_Era/units/_fake/_rand_ext.cfg:20
-#: Grafted_Era/units/_fake/_rand_nightmares.cfg:20
-#: Grafted_Era/units/_fake/_rand_undead.cfg:20
-#: Grafted_Era/units/_fake/_rand_spawn_def.cfg:20
-#: Grafted_Era/units/_fake/_rand_def_g.cfg:20
 #: Grafted_Era/units/_fake/_rand_darklands.cfg:20
-#: Grafted_Era/units/_fake/_rand_halflings.cfg:20
-#: Grafted_Era/units/_fake/_rand_loyalists.cfg:20
-#: Grafted_Era/units/_fake/_rand_all_g.cfg:20
+#: Grafted_Era/units/_fake/_rand_undead.cfg:20
+#: Grafted_Era/units/_fake/_rand_spawn_ext.cfg:20
 #: Grafted_Era/units/_fake/_rand_spawn.cfg:20
+#: Grafted_Era/units/_fake/_rand_nightmares.cfg:20
+#: Grafted_Era/units/_fake/_rand_northerners.cfg:20
+#: Grafted_Era/units/_fake/_rand_halflings.cfg:20
+#: Grafted_Era/units/_fake/_rand_all.cfg:20
+#: Grafted_Era/units/_fake/_rand_ext_g.cfg:20
+#: Grafted_Era/units/_fake/_rand_spawn_def.cfg:20
+#: Grafted_Era/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:20
+#: Grafted_Era/units/nightmares/ni_hd_01_howling_darkness.cfg:20
+#: Grafted_Era/units/nightmares/ni_hd_03_eternal_night.cfg:22
 msgid "."
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/_fake/_rand_spawn_ext.cfg:23
-#: Grafted_Era/units/_fake/_rand_northerners.cfg:23
-#: Grafted_Era/units/_fake/_rand_rebels.cfg:23
+#: Grafted_Era/units/_fake/_rand_def_g.cfg:23
+#: Grafted_Era/units/_fake/_rand_loyalists.cfg:23
+#: Grafted_Era/units/_fake/_rand_steppe.cfg:23
 #: Grafted_Era/units/_fake/_rand_drakes.cfg:23
 #: Grafted_Era/units/_fake/_rand_knalgan.cfg:23
-#: Grafted_Era/units/_fake/_rand_steppe.cfg:23
-#: Grafted_Era/units/_fake/_rand_ext_g.cfg:23
-#: Grafted_Era/units/_fake/_rand_all.cfg:23
+#: Grafted_Era/units/_fake/_rand_rebels.cfg:23
+#: Grafted_Era/units/_fake/_rand_all_g.cfg:23
 #: Grafted_Era/units/_fake/_rand_def.cfg:23
 #: Grafted_Era/units/_fake/_rand_ext.cfg:23
-#: Grafted_Era/units/_fake/_rand_nightmares.cfg:23
-#: Grafted_Era/units/_fake/_rand_undead.cfg:23
-#: Grafted_Era/units/_fake/_rand_spawn_def.cfg:23
-#: Grafted_Era/units/_fake/_rand_def_g.cfg:23
 #: Grafted_Era/units/_fake/_rand_darklands.cfg:23
-#: Grafted_Era/units/_fake/_rand_halflings.cfg:23
-#: Grafted_Era/units/_fake/_rand_loyalists.cfg:23
-#: Grafted_Era/units/_fake/_rand_all_g.cfg:23
+#: Grafted_Era/units/_fake/_rand_undead.cfg:23
+#: Grafted_Era/units/_fake/_rand_spawn_ext.cfg:23
 #: Grafted_Era/units/_fake/_rand_spawn.cfg:23
+#: Grafted_Era/units/_fake/_rand_nightmares.cfg:23
+#: Grafted_Era/units/_fake/_rand_northerners.cfg:23
+#: Grafted_Era/units/_fake/_rand_halflings.cfg:23
+#: Grafted_Era/units/_fake/_rand_all.cfg:23
+#: Grafted_Era/units/_fake/_rand_ext_g.cfg:23
+#: Grafted_Era/units/_fake/_rand_spawn_def.cfg:23
 msgid "g"
 msgstr ""
 
@@ -681,10 +682,10 @@ msgstr ""
 msgid "Ambusher"
 msgstr ""
 
-#. [unit_type]: id=Graft_Ambusher, race=human
 #. [unit_type]: id=Graft_Henchman, race=human
-#: Grafted_Era/units/darklands/Ambusher.cfg:27
+#. [unit_type]: id=Graft_Ambusher, race=human
 #: Grafted_Era/units/darklands/Henchman.cfg:26
+#: Grafted_Era/units/darklands/Ambusher.cfg:27
 msgid ""
 "These bandits and criminals have been cleared of any charges and, forming a "
 "separate unit, they now serve as an important part of their Lord's troops."
@@ -773,11 +774,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: Grafted_Era/units/darklands/Demon_Wolf.cfg:47
 #: Grafted_Era/units/darklands/Dread_Wolf.cfg:45
+#: Grafted_Era/units/darklands/Demon_Wolf.cfg:47
 #: Grafted_Era/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:48
-#: Grafted_Era/units/nightmares/ni_hd_03_eternal_night.cfg:51
 #: Grafted_Era/units/nightmares/ni_hd_01_howling_darkness.cfg:35
+#: Grafted_Era/units/nightmares/ni_hd_03_eternal_night.cfg:51
 msgid "howl"
 msgstr ""
 
@@ -816,10 +817,10 @@ msgstr ""
 msgid "Giant"
 msgstr ""
 
-#. [unit_type]: id=Graft_Giant, race=human
 #. [unit_type]: id=Graft_Strongman, race=human
-#: Grafted_Era/units/darklands/Giant.cfg:31
+#. [unit_type]: id=Graft_Giant, race=human
 #: Grafted_Era/units/darklands/Strongman.cfg:30
+#: Grafted_Era/units/darklands/Giant.cfg:31
 msgid ""
 "Men of tremendous size and strength are sometimes born to the peasants of "
 "the Darklands, to grow up surrounded by superstition, hatred and awe. Their "
@@ -830,8 +831,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/darklands/Giant.cfg:49
 #: Grafted_Era/units/darklands/Strongman.cfg:48
+#: Grafted_Era/units/darklands/Giant.cfg:49
 msgid "axe head"
 msgstr ""
 
@@ -932,14 +933,14 @@ msgstr ""
 msgid "Halfling Alchemist"
 msgstr ""
 
-#. [unit_type]: id=Graft_half_alchemist_0, race=Graft_halfling
-#. [unit_type]: id=Graft_half_alchemist_2, race=Graft_halfling
 #. [unit_type]: id=Graft_half_alchemist_1, race=Graft_halfling
+#. [unit_type]: id=Graft_half_alchemist_0, race=Graft_halfling
 #. [unit_type]: id=Graft_half_alchemist_3, race=Graft_halfling
-#: Grafted_Era/units/halflings/0_alchemist.cfg:19
-#: Grafted_Era/units/halflings/2_alchemist.cfg:19
+#. [unit_type]: id=Graft_half_alchemist_2, race=Graft_halfling
 #: Grafted_Era/units/halflings/1_alchemist.cfg:19
+#: Grafted_Era/units/halflings/0_alchemist.cfg:19
 #: Grafted_Era/units/halflings/3_alchemist.cfg:20
+#: Grafted_Era/units/halflings/2_alchemist.cfg:19
 msgid ""
 "As the halflings are more interested in good living and comfort than obscure "
 "creations, the halflings alchemists spend more time studying medicine and "
@@ -949,23 +950,23 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/halflings/0_alchemist.cfg:30
 #: Grafted_Era/units/halflings/1_alchemist.cfg:29
+#: Grafted_Era/units/halflings/0_alchemist.cfg:30
 msgid "walking stick"
 msgstr ""
 
 #. [attack]: type=fire
-#: Grafted_Era/units/halflings/0_alchemist.cfg:39
-#: Grafted_Era/units/halflings/2_alchemist.cfg:38
 #: Grafted_Era/units/halflings/1_alchemist.cfg:38
+#: Grafted_Era/units/halflings/0_alchemist.cfg:39
 #: Grafted_Era/units/halflings/3_alchemist.cfg:40
+#: Grafted_Era/units/halflings/2_alchemist.cfg:38
 msgid "fire candle"
 msgstr ""
 
 #. [attack]: type=fire
+#: Grafted_Era/units/halflings/1_alchemist.cfg:50
 #: Grafted_Era/units/halflings/0_alchemist.cfg:48
 #: Grafted_Era/units/halflings/2_alchemist.cfg:50
-#: Grafted_Era/units/halflings/1_alchemist.cfg:50
 msgid "fireworks"
 msgstr ""
 
@@ -992,12 +993,12 @@ msgstr ""
 msgid "Halfling Net"
 msgstr ""
 
-#. [unit_type]: id=Graft_half_net_1, race=Graft_halfling
 #. [unit_type]: id=Graft_half_net_0, race=Graft_halfling
 #. [unit_type]: id=Graft_half_net_2, race=Graft_halfling
-#: Grafted_Era/units/halflings/1_net.cfg:19
+#. [unit_type]: id=Graft_half_net_1, race=Graft_halfling
 #: Grafted_Era/units/halflings/0_net.cfg:19
 #: Grafted_Era/units/halflings/2_net.cfg:20
+#: Grafted_Era/units/halflings/1_net.cfg:19
 msgid ""
 "Halflings have long made nets for hunting and fishing. Although these "
 "traditional snares are used to catch small creatures the halflings "
@@ -1011,12 +1012,12 @@ msgstr ""
 msgid "Halfling Slinger"
 msgstr ""
 
-#. [unit_type]: id=Graft_half_slinger_2, race=Graft_halfling
-#. [unit_type]: id=Graft_half_slinger_0, race=Graft_halfling
 #. [unit_type]: id=Graft_half_slinger_1, race=Graft_halfling
-#: Grafted_Era/units/halflings/2_slinger.cfg:20
-#: Grafted_Era/units/halflings/0_slinger.cfg:19
+#. [unit_type]: id=Graft_half_slinger_0, race=Graft_halfling
+#. [unit_type]: id=Graft_half_slinger_2, race=Graft_halfling
 #: Grafted_Era/units/halflings/1_slinger.cfg:19
+#: Grafted_Era/units/halflings/0_slinger.cfg:19
+#: Grafted_Era/units/halflings/2_slinger.cfg:20
 msgid ""
 "Halflings are quite skilled with slings. The pastime of sling shooting is a "
 "popular one and some also use slings for hunting. Their marksmanship, "
@@ -1034,10 +1035,10 @@ msgstr ""
 msgid "Halfling Armor"
 msgstr ""
 
-#. [unit_type]: id=Graft_half_armor_1, race=Graft_halfling
 #. [unit_type]: id=Graft_half_armor_2, race=Graft_halfling
-#: Grafted_Era/units/halflings/1_armor.cfg:19
+#. [unit_type]: id=Graft_half_armor_1, race=Graft_halfling
 #: Grafted_Era/units/halflings/2_armor.cfg:20
+#: Grafted_Era/units/halflings/1_armor.cfg:19
 msgid ""
 "Dealing with a front-on charge is a serious challenge for the halflings. "
 "With various collected items they construct a makeshift armor and using this "
@@ -1049,11 +1050,11 @@ msgstr ""
 msgid "Eagle"
 msgstr ""
 
-#. [unit_type]: id=Graft_half_eagle_1, race=Graft_eagle_folk
 #. [unit_type]: id=Graft_half_eagle_3, race=Graft_eagle_folk
+#. [unit_type]: id=Graft_half_eagle_1, race=Graft_eagle_folk
 #. [unit_type]: id=Graft_half_eagle_2, race=Graft_eagle_folk
-#: Grafted_Era/units/halflings/1_eagle.cfg:19
 #: Grafted_Era/units/halflings/3_eagle.cfg:20
+#: Grafted_Era/units/halflings/1_eagle.cfg:19
 #: Grafted_Era/units/halflings/2_eagle.cfg:19
 msgid ""
 "The great eagles have always been friends of the halflings and willing to "
@@ -1075,12 +1076,12 @@ msgstr ""
 msgid "Halfling Pony"
 msgstr ""
 
+#. [unit_type]: id=Graft_half_pony_1, race=Graft_halfling
 #. [unit_type]: id=Graft_half_charger_2, race=Graft_halfling
 #. [unit_type]: id=Graft_half_pony_2, race=Graft_halfling
-#. [unit_type]: id=Graft_half_pony_1, race=Graft_halfling
+#: Grafted_Era/units/halflings/1_pony.cfg:20
 #: Grafted_Era/units/halflings/2_charger.cfg:21
 #: Grafted_Era/units/halflings/2_pony.cfg:21
-#: Grafted_Era/units/halflings/1_pony.cfg:20
 msgid ""
 "Trained to carry loads and plow fields, these ponies have been turned into "
 "weapons of war."
@@ -1112,12 +1113,12 @@ msgstr ""
 msgid "Halfling Reeve"
 msgstr ""
 
-#. [unit_type]: id=Graft_half_veteran_1, race=Graft_halfling
 #. [unit_type]: id=Graft_half_veteran_3, race=Graft_halfling
 #. [unit_type]: id=Graft_half_veteran_2, race=Graft_halfling
-#: Grafted_Era/units/halflings/1_veteran.cfg:19
+#. [unit_type]: id=Graft_half_veteran_1, race=Graft_halfling
 #: Grafted_Era/units/halflings/3_veteran.cfg:20
 #: Grafted_Era/units/halflings/2_veteran.cfg:19
+#: Grafted_Era/units/halflings/1_veteran.cfg:19
 msgid ""
 "Every halfling militia or posse is headed by a halfling who has braved "
 "combat before and who will do so again."
@@ -1193,12 +1194,12 @@ msgstr ""
 msgid "Black Cat"
 msgstr ""
 
+#. [unit_type]: id=Graft_Jinx_Beast, race=aberration
 #. [unit_type]: id=Graft_Calamity, race=aberration
 #. [unit_type]: id=Graft_Black_Cat, race=aberration
-#. [unit_type]: id=Graft_Jinx_Beast, race=aberration
-#: Grafted_Era/units/nightmares/ab_bc_03_calamity.cfg:22
-#: Grafted_Era/units/nightmares/ab_bc_01_black_cat.cfg:22
-#: Grafted_Era/units/nightmares/ab_bc_02_jinx_beast.cfg:22
+#: Grafted_Era/units/nightmares/ab_bc_02_jinx_beast.cfg:21
+#: Grafted_Era/units/nightmares/ab_bc_03_calamity.cfg:21
+#: Grafted_Era/units/nightmares/ab_bc_01_black_cat.cfg:21
 msgid ""
 "Fate can be treacherous at times, as quick to offer you a present as to turn "
 "it into a burden. When Meloen succeeded in brushing the knowlegde of magic's "
@@ -1215,9 +1216,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
+#: Grafted_Era/units/nightmares/ab_bc_02_jinx_beast.cfg:42
 #: Grafted_Era/units/nightmares/ab_bc_03_calamity.cfg:44
 #: Grafted_Era/units/nightmares/ab_bc_01_black_cat.cfg:42
-#: Grafted_Era/units/nightmares/ab_bc_02_jinx_beast.cfg:42
 msgid "ill omen"
 msgstr ""
 
@@ -1236,12 +1237,12 @@ msgstr ""
 msgid "Scornful Watcher"
 msgstr ""
 
-#. [unit_type]: id=Graft_Spiteful_Watcher, race=aberration
-#. [unit_type]: id=Graft_Inquisitor, race=aberration
 #. [unit_type]: id=Graft_Scornful_Watcher, race=aberration
-#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:21
-#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:21
+#. [unit_type]: id=Graft_Inquisitor, race=aberration
+#. [unit_type]: id=Graft_Spiteful_Watcher, race=aberration
 #: Grafted_Era/units/nightmares/ab_sw_01_scornful_watcher.cfg:21
+#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:21
+#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:21
 msgid ""
 "Bad dreams after bad dreams, growing to nightmares, Meloen fell into a "
 "paranoid dementia, thinking to be judged for her misdeeds and revived her "
@@ -1251,23 +1252,23 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:32
-#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:34
 #: Grafted_Era/units/nightmares/ab_sw_01_scornful_watcher.cfg:40
+#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:34
+#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:32
 msgid "kick"
 msgstr ""
 
 #. [attack]
-#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:41
-#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:43
 #: Grafted_Era/units/nightmares/ab_sw_01_scornful_watcher.cfg:49
+#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:43
+#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:41
 msgid "stare"
 msgstr ""
 
 #. [attack]
-#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:43
-#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:45
 #: Grafted_Era/units/nightmares/ab_sw_01_scornful_watcher.cfg:51
+#: Grafted_Era/units/nightmares/ab_sw_03_inquisitor.cfg:45
+#: Grafted_Era/units/nightmares/ab_sw_02_spiteful_watcher.cfg:43
 msgid "arcane_focus"
 msgstr ""
 
@@ -1286,16 +1287,16 @@ msgstr ""
 msgid "Unhatched"
 msgstr ""
 
+#. [unit_type]: id=Graft_Raging_One, race=aberration
 #. [unit_type]: id=Graft_Unhatched, race=aberration
 #. [unit_type]: id=Graft_Reckless_One, race=aberration
-#. [unit_type]: id=Graft_Raging_One, race=aberration
-#. [unit_type]: id=Graft_Angry_One, race=aberration
 #. [unit_type]: id=Graft_Rash_One, race=aberration
+#. [unit_type]: id=Graft_Angry_One, race=aberration
+#: Grafted_Era/units/nightmares/ab_un_03_raging_one.cfg:21
 #: Grafted_Era/units/nightmares/ab_un_01_unhatched_.cfg:21
 #: Grafted_Era/units/nightmares/ab_un_03b_reckless_one.cfg:21
-#: Grafted_Era/units/nightmares/ab_un_03_raging_one.cfg:21
-#: Grafted_Era/units/nightmares/ab_un_02_angry_one.cfg:21
 #: Grafted_Era/units/nightmares/ab_un_02b_rash_one.cfg:21
+#: Grafted_Era/units/nightmares/ab_un_02_angry_one.cfg:21
 msgid ""
 "These hideous monsters came from the very first fear of Meloen : to mother a "
 "physically or mentally ill child. Not quite formed yet, the unhatched partly "
@@ -1327,18 +1328,18 @@ msgstr ""
 msgid "Tornado Form of Unstable Elemental"
 msgstr ""
 
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:34
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:97
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:162
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:237
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:393
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:457
-#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:28
-#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:91
-#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:156
-#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:231
-#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:387
-#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:451
+#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:26
+#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:89
+#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:154
+#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:229
+#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:385
+#: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:449
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:32
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:95
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:160
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:235
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:391
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:455
 msgid ""
 "Despising herself, self-doubting, Meloen felt a strong distrust of her "
 "surroundings. Panarbori, the spirit of nature originally made to flesh by "
@@ -1355,14 +1356,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:43
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:37
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:43
 msgid "gust"
 msgstr ""
 
 #. [attack]: type=blade
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:52
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:46
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:52
 msgid "air blast"
 msgstr ""
 
@@ -1371,8 +1372,8 @@ msgid "Bramble Form of Unstable Elemental"
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:106
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:100
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:106
 msgid "crunch"
 msgstr ""
 
@@ -1386,14 +1387,14 @@ msgid "Quake Form of Unstable Elemental"
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:171
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:165
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:171
 msgid "shatter"
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:180
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:174
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:180
 msgid "boulder"
 msgstr ""
 
@@ -1402,14 +1403,14 @@ msgid "Whirlpool Form of Unstable Elemental"
 msgstr ""
 
 #. [attack]: type=blade
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:289
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:283
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:289
 msgid "billow"
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:298
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:292
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:298
 msgid "water blast"
 msgstr ""
 
@@ -1418,14 +1419,14 @@ msgid "Sandstorm Form of Unstable Elemental"
 msgstr ""
 
 #. [attack]: type=blade
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:402
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:396
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:402
 msgid "devil dust"
 msgstr ""
 
 #. [attack]: type=blade
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:411
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:405
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:411
 msgid "sand blast"
 msgstr ""
 
@@ -1434,14 +1435,14 @@ msgid "Frost Form of Unstable Elemental"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:466
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:460
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:466
 msgid "deathblow"
 msgstr ""
 
 #. [attack]: type=cold
-#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:475
 #: Grafted_Era/units/nightmares/el_ue_01_unstable_elemental.cfg:469
+#: Grafted_Era/units/nightmares/el_ue_02_nature_wrath.cfg:475
 msgid "ice breath"
 msgstr ""
 
@@ -1561,12 +1562,12 @@ msgstr ""
 msgid "Life Thief"
 msgstr ""
 
-#. [unit_type]: id=Graft_Life_Thief, race=nightmare
 #. [unit_type]: id=Graft_Soul_Snatcher, race=nightmare
+#. [unit_type]: id=Graft_Life_Thief, race=nightmare
 #. [unit_type]: id=Graft_Death_Spectre, race=nightmare
-#: Grafted_Era/units/nightmares/ni_lt_01_life_thief.cfg:21
-#: Grafted_Era/units/nightmares/ni_lt_02_soul_snatcher.cfg:22
-#: Grafted_Era/units/nightmares/ni_lt_03_death_spectre.cfg:22
+#: Grafted_Era/units/nightmares/ni_lt_02_soul_snatcher.cfg:21
+#: Grafted_Era/units/nightmares/ni_lt_01_life_thief.cfg:20
+#: Grafted_Era/units/nightmares/ni_lt_03_death_spectre.cfg:21
 msgid ""
 "In her moments of happiness, Meloen enjoyed gazing at butterflies. In these "
 "rare moments of meditation she also got conscious of how much they were "
@@ -1579,8 +1580,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
-#: Grafted_Era/units/nightmares/ni_lt_01_life_thief.cfg:32
 #: Grafted_Era/units/nightmares/ni_lt_02_soul_snatcher.cfg:33
+#: Grafted_Era/units/nightmares/ni_lt_01_life_thief.cfg:32
 #: Grafted_Era/units/nightmares/ni_lt_03_death_spectre.cfg:35
 msgid "soul grasp"
 msgstr ""
@@ -1601,7 +1602,7 @@ msgid "Icewind Drover"
 msgstr ""
 
 #. [unit_type]: id=Graft_Steppe_Drover, race=orc
-#: Grafted_Era/units/steppe/Icewind_Drover.cfg:21
+#: Grafted_Era/units/steppe/Icewind_Drover.cfg:20
 msgid ""
 "A Herder of sufficient ability can become what the Steppe_Orcs call a "
 "Drover, the elite of the IceWind order. With age and experience in the "
@@ -1617,8 +1618,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: Grafted_Era/units/steppe/Icewind_Master.cfg:44
 #: Grafted_Era/units/steppe/Icewind_Herder.cfg:48
+#: Grafted_Era/units/steppe/Icewind_Master.cfg:44
 #: Grafted_Era/units/steppe/Icewind_Drover.cfg:43
 msgid "frostbite"
 msgstr ""
@@ -1629,7 +1630,7 @@ msgid "Icewind Herder"
 msgstr ""
 
 #. [unit_type]: id=Graft_Steppe_Herder, race=orc
-#: Grafted_Era/units/steppe/Icewind_Herder.cfg:22
+#: Grafted_Era/units/steppe/Icewind_Herder.cfg:20
 msgid ""
 "There is an old tale about the creation of the the IceWind order: A gang of "
 "children were fishing when a very young female, hooking something bigger "
@@ -1739,7 +1740,7 @@ msgid "Steppe Khan"
 msgstr ""
 
 #. [unit_type]: id=Graft_Steppe_Khan, race=orc
-#: Grafted_Era/units/steppe/Steppe_Khan.cfg:24
+#: Grafted_Era/units/steppe/Steppe_Khan.cfg:23
 msgid ""
 "The steppe chieftains are titled Khans, serving as both statesmen and "
 "generals. They have discovered the advantages of leading from behind, urging "
@@ -1773,7 +1774,7 @@ msgid "Steppe Outcast"
 msgstr ""
 
 #. [unit_type]: id=Graft_Steppe_Outcast, race=orc
-#: Grafted_Era/units/steppe/Steppe_Outcast.cfg:20
+#: Grafted_Era/units/steppe/Steppe_Outcast.cfg:19
 msgid ""
 "Not all initiates to the IceWind order are successful. Some lack the "
 "necessary patience, others are found wanting in mental endurance. However "
@@ -1827,9 +1828,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Grafted_Era/units/steppe/Steppe_Stoic.cfg:33
 #: Grafted_Era/units/steppe/Steppe_Shieldbearer.cfg:32
 #: Grafted_Era/units/steppe/Steppe_Rigid.cfg:32
+#: Grafted_Era/units/steppe/Steppe_Stoic.cfg:33
 msgid "shield bash"
 msgstr ""
 
@@ -1874,7 +1875,7 @@ msgid "Steppe Skewer"
 msgstr ""
 
 #. [unit_type]: id=Graft_Steppe_Skewer, race=orc
-#: Grafted_Era/units/steppe/Steppe_Skewer.cfg:22
+#: Grafted_Era/units/steppe/Steppe_Skewer.cfg:20
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
 "within their powers of thinking to realise that a longer spear will allow "
@@ -1922,7 +1923,7 @@ msgid "Steppe Stoic"
 msgstr ""
 
 #. [unit_type]: id=Graft_Steppe_Stoic, race=orc
-#: Grafted_Era/units/steppe/Steppe_Stoic.cfg:22
+#: Grafted_Era/units/steppe/Steppe_Stoic.cfg:20
 msgid ""
 "The Stoic are embodiments of endurance, plain and simple. They are "
 "characterized by sheer stubbornness and refusal to go down even under the "
